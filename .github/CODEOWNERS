@@ -1,0 +1,17 @@
+# CODEOWNERS — Ditto190 Fork
+# See: https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-code-owners
+#
+# Format: <pattern>  <@owner> [<@owner> ...]
+# Listed owners are automatically requested for review when a PR touches
+# the matched paths.
+
+# Global default — Ditto190 reviews everything
+*  @Ditto190
+
+# Agent OS core files require explicit review
+AGENTS.md                          @Ditto190
+vendor/awesome-copilot-index/      @Ditto190
+agents/                            @Ditto190
+
+# GitHub configuration files
+.github/                           @Ditto190
